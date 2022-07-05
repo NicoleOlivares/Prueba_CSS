@@ -1,0 +1,9 @@
+La estructura de cada elemento en la página dependerá de su medida.
+Si tengo el total de la medida de la página, puedo calcular
+donde va cada elemento según su px.
+
+Esto conlleva mucho tiempo,  por lo que debe haber algún metodo más rápido.
+Donde se puede dar el alto y el ancho y el lugar de manera más rápida. 
+
+Nota: buscar información al respecto.
+
