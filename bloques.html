@@ -3,11 +3,55 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Position Practice</title>
-    <link rel="stylesheet" type="text/css" href="bloques.css">
+    
+    <script>
+        $(document).ready(function(){
+             //css, agregar un estilo a un elemento html
+             $('#btn1').click(function(){
+                $('#header').html('id="p1"<p>cambio de color</p>');
+                $('#p1').css("color", "orange");
+
+            });
+
+            //addClass, agrega una clase.
+            $('#btn2').click(function(){
+                $('#header').addClass('headerColor');
+
+            });
+
+            //removeClass
+            $('#btn3').click(function(){
+                $('#header').removeClass('headerColor');
+
+            });
+
+        });
+    </script>
+    <style>
+        #header{
+        min-height: 150px;
+        background-color: purple;
+        }
+
+        #headerColor{
+        min-height: 150px;
+        background-color: green;
+        }
+
+        
+        
+    </style>
+    <!--<link rel="stylesheet" type="text/css" href="bloques.css">-->
 </head>
 <body>
+    
     <div id="wrapper">
-        <div id="header"></div>
+        <div id="header">
+            
+        </div>
+        <button id="btn1">css()</button>
+        <button id="btn2"> addClass() </button>
+        <button id="btn3"> removeClass() </button>
         <div id="navigation"></div>
         <div id="main_content">
             <div class="subcontents"></div>

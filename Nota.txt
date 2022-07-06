@@ -7,3 +7,6 @@ Donde se puede dar el alto y el ancho y el lugar de manera más rápida.
 
 Nota: buscar información al respecto.
 
+RESPUESTA
+ESTUDIAR CSS FLEXBOX Y CSS GRID
+
